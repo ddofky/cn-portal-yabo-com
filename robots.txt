@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://ddofky.github.io/cn-portal-yabo-com/sitemap.xml

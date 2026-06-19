@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>亚博体育 · 资讯索引与资料整理</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Noto Sans SC', 'Hiragino Sans GB', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+            background: #fafbfc;
+            color: #1e2a3a;
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 740px;
+            margin: 0 auto;
+            padding: 0 24px;
+        }
+
+        /* Hero */
+        .hero {
+            padding: 80px 0 48px;
+            text-align: center;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .hero h1 {
+            font-size: 2.4rem;
+            font-weight: 550;
+            letter-spacing: -0.02em;
+            color: #12202f;
+            margin-bottom: 16px;
+        }
+
+        .hero .sub {
+            font-size: 1.1rem;
+            color: #5c6b7a;
+            max-width: 580px;
+            margin: 0 auto 24px;
+        }
+
+        .hero .meta-line {
+            font-size: 0.9rem;
+            color: #7a8898;
+            background: #eef1f4;
+            display: inline-block;
+            padding: 4px 16px;
+            border-radius: 40px;
+        }
+
+        /* 卡片通用 */
+        .section-card {
+            padding: 48px 0;
+            border-bottom: 1px solid #e9ecef;
+        }
+
+        .section-card:last-of-type {
+            border-bottom: none;
+        }
+
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 520;
+            color: #0a1929;
+            margin-bottom: 24px;
+            letter-spacing: -0.01em;
+        }
+
+        h3 {
+            font-size: 1.15rem;
+            font-weight: 500;
+            margin-bottom: 8px;
+            color: #1f3a4f;
+        }
+
+        p {
+            margin-bottom: 18px;
+            font-size: 1rem;
+            color: #2b3c4e;
+        }
+
+        p:last-child {
+            margin-bottom: 0;
+        }
+
+        ul {
+            list-style: none;
+            margin: 16px 0 20px;
+        }
+
+        ul li {
+            padding: 8px 0 8px 28px;
+            position: relative;
+            font-size: 1rem;
+            color: #2b3c4e;
+        }
+
+        ul li::before {
+            content: "—";
+            position: absolute;
+            left: 0;
+            color: #62748a;
+            font-weight: 300;
+        }
+
+        a {
+            color: #1a5c8f;
+            text-decoration: none;
+            border-bottom: 1px solid transparent;
+            transition: border 0.2s;
+        }
+
+        a:hover {
+            border-bottom-color: #1a5c8f;
+        }
+
+        /* FAQ 摘要 */
+        .faq-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-top: 8px;
+        }
+
+        .faq-item {
+            background: #f3f6fa;
+            padding: 16px 20px;
+            border-radius: 8px;
+        }
+
+        .faq-item p {
+            margin-bottom: 0;
+            font-size: 0.95rem;
+        }
+
+        .faq-q {
+            font-weight: 540;
+            margin-bottom: 4px;
+            color: #0b1d2c;
+        }
+
+        .faq-a {
+            color: #3c4f61;
+        }
+
+        /* 底部链接 */
+        .footer-links {
+            padding: 32px 0 64px;
+            text-align: center;
+            font-size: 0.9rem;
+            color: #6c7c8e;
+        }
+
+        .footer-links a {
+            color: #1a5c8f;
+            border-bottom: none;
+        }
+
+        .footer-links a:hover {
+            border-bottom: 1px solid #1a5c8f;
+        }
+
+        .footer-links .sep {
+            margin: 0 8px;
+            color: #c9d2db;
+        }
+
+        /* 响应式 */
+        @media (max-width: 600px) {
+            .hero {
+                padding: 48px 0 32px;
+            }
+            .hero h1 {
+                font-size: 1.8rem;
+            }
+            .hero .sub {
+                font-size: 1rem;
+            }
+            h2 {
+                font-size: 1.35rem;
+            }
+            .container {
+                padding: 0 18px;
+            }
+            .section-card {
+                padding: 32px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <!-- Hero -->
+    <header class="hero">
+        <h1>亚博体育 · 信息索引</h1>
+        <p class="sub">围绕运动资料整理与行业观察，提供结构化的内容参考。平台资讯、项目分类、常见问题摘要均收录于此。</p>
+        <span class="meta-line">资料整理 · 持续更新</span>
+    </header>
+
+    <!-- 优势区 / 资料特点 -->
+    <section class="section-card">
+        <h2>资料汇编的逻辑</h2>
+        <p>面对体育信息碎片化的趋势，系统化的整理能帮助使用者更快定位到所需内容。<a href="https://cn-portal-yabo.com">亚博体育</a> 在内容架构上尝试将赛事数据、项目背景与用户常见疑问进行分层归类，降低重复查找的时间成本。</p>
+        <ul>
+            <li>分类索引：按运动项目、赛事阶段、资讯类型划分条目</li>
+            <li>结构化摘要：每条资料附带关键标签与简短说明</li>
+            <li>关联跳转：相关条目之间建立链接，便于横向对比</li>
+        </ul>
+        <p>这种整理方式并非简单罗列，而是基于对体育内容消费习惯的观察——多数用户在浏览时更倾向于先看框架，再进入细节。因此目录本身的清晰度直接影响后续查阅效率。</p>
+    </section>
+
+    <!-- 说明区 / 适用场景 -->
+    <section class="section-card">
+        <h2>场景与边界</h2>
+        <p>资料索引并无固定的标准答案，不同使用目的会产生迥异的整理路径。以下为几种常见应用场景的简要说明：</p>
+        <p><strong>赛事背景快速了解</strong> —— 当需要为某场比赛或某个联赛准备背景资料时，索引页提供按时间线排列的摘要节点，辅助建立全景认知。无需逐篇阅读，即可掌握关键事件脉络。</p>
+        <p><strong>运动项目横向对比</strong> —— 将不同运动的规则、场地、装备、参与规模等维度制成对照表，适合教育类或入门类内容场景。对比项越具体，参考价值越高。</p>
+        <p><strong>疑点查证与校验</strong> —— 针对常见误解或网络流传信息，索引中设置「核查点」部分，引用多方信源或公开数据，协助读者自行判断。此部分仅做呈现，不代替专业裁定。</p>
+        <p style="font-size:0.92rem; color:#4e6173; border-left:3px solid #d4dee6; padding-left:14px; margin-top:8px;">需要说明的是，任何索引都无法覆盖所有细节。用户在实际使用中仍应结合一手资料或官方公告进行验证。</p>
+    </section>
+
+    <!-- FAQ 摘要 -->
+    <section class="section-card">
+        <h2>常见问题摘要</h2>
+        <p style="margin-bottom:4px;">以下摘录几个典型疑问，完整 FAQ 列表可在站内索引模块中查阅。</p>
+        <div class="faq-grid">
+            <div class="faq-item">
+                <p class="faq-q">问：通过索引找到的信息是否有时间标注？</p>
+                <p class="faq-a">每条资料均会标注整理或引用的日期范围。部分赛事数据随赛季更新，建议以官方发布的最新版本为准。</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">问：能否直接引用索引中的内容作为决策依据？</p>
+                <p class="faq-a">索引旨在提供结构化参考，不构成专业建议或最终判断。重要决策请直接咨询相关领域的权威机构或专业人士。</p>
+            </div>
+            <div class="faq-item">
+                <p class="faq-q">问：索引是否涵盖所有运动项目？</p>
+                <p class="faq-a">目前以主流项目及部分特色运动为主，覆盖范围会持续扩充。未收录的项目或数据欢迎通过站内反馈渠道提出建议。</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- 底部链接 -->
+    <footer class="footer-links">
+        <span>关于资料索引 · 内容规划以信息整理为出发点</span>
+        <br>
+        <a href="https://cn-portal-yabo.com">亚博体育</a>
+        <span class="sep">·</span>
+        <a href="#">使用说明</a>
+        <span class="sep">·</span>
+        <a href="#">内容来源</a>
+        <span class="sep">·</span>
+        <span>沪ICP备xxxxxx号</span>
+    </footer>
+
+</div>
+
+</body>
+</html>
